@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chia Power</title>
+  <link rel="apple-touch-icon" sizes="205x154" href="favicon.png">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="sing.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="background-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <main class="glass-container">
+    <div class="audio-player">
+      <audio id="myAudio" controls>
+        <source src="data.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="controls">
+        <button type="button" onclick="rewindAudio()">⏪ 10s</button>
+        <button type="button" onclick="fastForwardAudio()">⏩ 10s</button>
+      </div>
+    </div>
+
+    <img src="infographic.png" alt="Chia Seed Benefits Infographic" class="infographic-image">
+
+    <div class="pdf-container">
+      <embed src="The_Night_Shift_Superfood.pdf" type="application/pdf" class="pdf-embed" />
+    </div>
+
+
+
+
+    <header>
+      <h1>Chia Power</h1>
+      <p style="text-align: center; max-width: 600px; margin: 0 auto 30px auto;">Chia Seed Benefits with Scientific
+        Explanations</p>
+    </header>
+
+    <div class="benefits-grid">
+      <!-- 1 -->
+      <article class="glass-card">
+        <div class="benefit-number">01</div>
+        <div class="benefit-title">Promotes Better Sleep</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds contain tryptophan, an essential amino acid that the body
+          converts into serotonin and melatonin, hormones that are key regulators of mood and the sleep-wake cycle. They
+          are also a good source of magnesium, a mineral that helps the body relax by activating the parasympathetic
+          nervous system and regulating the hormone melatonin. Additionally, the high fiber content in chia seeds helps
+          stabilize blood sugar levels throughout the night, preventing insulin spikes that often disrupt sleep.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A study published in the International Journal of Environmental Research in Public
+          Health found that a diet enriched with tryptophan and magnesium reduced anxiety symptoms and mood disturbances
+          in women with fibromyalgia, factors that can significantly impact sleep quality.
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="glass-card">
+        <div class="benefit-number">02</div>
+        <div class="benefit-title">Aids in Weight Loss</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> The high fiber content in chia seeds promotes a feeling of fullness,
+          which can potentially lead to a reduction in overall calorie intake. Furthermore, chia seeds are rich in
+          omega-3 fatty acids, which are associated with improved metabolic health.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2024 systematic review in Nutrition and Metabolism observed that consuming 30
+          grams of chia seeds daily for six months resulted in reductions in both weight and waist circumference among
+          overweight individuals.
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="glass-card">
+        <div class="benefit-number">03</div>
+        <div class="benefit-title">Regulates Blood Sugar</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds are packed with soluble fiber, which forms a gel-like
+          substance in the stomach that slows down the digestion and absorption of carbohydrates. This gradual process
+          helps prevent sudden spikes and drops in blood sugar during the night. They also contain alpha-linolenic acid
+          (ALA), an omega-3 fatty acid, which has been shown to enhance insulin sensitivity.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> Research published in the journal Nutrients in 2023 highlighted the ability of ALA
+          to enhance insulin sensitivity, allowing the body to manage blood sugar more effectively.
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="glass-card">
+        <div class="benefit-number">04</div>
+        <div class="benefit-title">Improves Digestion and Gut Health</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> The soluble fiber in these seeds absorbs water to form a gel in the
+          digestive tract, which both softens stool and promotes regular bowel movements. Chia seeds also contain
+          phenolic compounds that have been shown to reduce intestinal inflammation and support the integrity of the gut
+          lining.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2023 study published in Nutrients found that Chia phenolic extract improved small
+          intestinal functionality and reduced inflammation in vivo.
+        </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="glass-card">
+        <div class="benefit-number">05</div>
+        <div class="benefit-title">Supports Heart Health</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds are rich in alpha-linolenic acid (ALA), a plant-based
+          omega-3 fatty acid known to lower the risk of cardiovascular diseases and reduce inflammation. The soluble
+          fiber assists heart health by reducing low-density lipoprotein (LDL) cholesterol; it binds to bile acids in
+          the intestine, facilitating their excretion and prompting the body to use circulating cholesterol to produce
+          more bile acids.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2024 study published in the Journal of Food Biochemistry indicated that chia seed
+          supplementation significantly decreased total cholesterol and triglyceride levels while simultaneously
+          increasing high-density lipoprotein (HDL) cholesterol.
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="glass-card">
+        <div class="benefit-number">06</div>
+        <div class="benefit-title">Hydrates the Body Overnight</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds have the impressive ability to absorb water up to 12 times
+          their weight, forming a gel that helps maintain sustained hydration levels throughout the night. They are also
+          rich in electrolytes, such as magnesium and potassium, which are essential for cellular hydration and fluid
+          balance.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A study published in the International Journal of Food Science specifically
+          highlighted the water absorption capacity of chia seeds.
+        </div>
+      </article>
+
+      <!-- 7 -->
+      <article class="glass-card">
+        <div class="benefit-number">07</div>
+        <div class="benefit-title">Reduces Inflammation</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> These seeds are packed with omega-3 fatty acids, which are known to
+          reduce inflammation. They also contain antioxidants like caffeic acid and chlorogenic acid that combat
+          oxidative stress, further alleviating inflammation.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2024 meta-analysis published in the Journal of Nutritional Science found that
+          consumption of chia seeds can lower C-reactive protein (CRP) levels, a key marker of inflammation.
+        </div>
+      </article>
+
+      <!-- 8 -->
+      <article class="glass-card">
+        <div class="benefit-number">08</div>
+        <div class="benefit-title">Supports Bone Health</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds are a powerhouse of essential nutrients for bone strength,
+          including alpha-linolenic acid (ALA), calcium, magnesium, and phosphorus. These minerals are integral to bone
+          structure and work together synergistically to enhance overall skeletal health and bone density.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2018 study in the journal Nutrients associated long-term dietary intake of chia
+          seeds with increased bone mineral content in rats.
+        </div>
+      </article>
+
+      <!-- 9 -->
+      <article class="glass-card">
+        <div class="benefit-number">09</div>
+        <div class="benefit-title">Detoxifies the Body</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> The soluble fiber forms a gel-like substance in the gut, aiding in
+          regular bowel movements and ensuring the timely elimination of waste, thereby reducing the reabsorption of
+          toxins. The seeds also possess a high capacity to absorb contaminants.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2024 study published in Letters in Applied Microbiology found that milled chia
+          seeds had a high capacity to absorb ochratoxin A (OTA), a common food contaminant, effectively reducing its
+          presence in the digestive system.
+        </div>
+      </article>
+
+      <!-- 10 -->
+      <article class="glass-card">
+        <div class="benefit-number">10</div>
+        <div class="benefit-title">Helps Prevent Acid Reflux</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds are known for their high mucilage content, a type of
+          soluble fiber. When hydrated, this mucilage forms a gel-like substance that can act as a protective barrier in
+          the stomach, potentially reducing irritation of the esophageal lining.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2018 study in the World Journal of Gastroenterology found that a fiber-enriched
+          diet significantly increased low esophageal sphincter resting pressure and decreased the number of
+          gastroesophageal reflux episodes in patients.
+        </div>
+      </article>
+
+      <!-- 11 -->
+      <article class="glass-card">
+        <div class="benefit-number">11</div>
+        <div class="benefit-title">Strengthens Immunity</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds provide a substantial boost to the immune system through
+          their content of antioxidants (including tocopherols, phytosterols, and polyphenolic compounds) which combat
+          oxidative stress. They also supply essential minerals like zinc and magnesium, which are crucial for
+          maintaining a robust immune response.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2022 study published in Antioxidants highlighted that Chia protein hydrolysates
+          can modulate immune function by reducing pro-inflammatory markers and enhancing anti-inflammatory cytokines.
+        </div>
+      </article>
+
+      <!-- 12 -->
+      <article class="glass-card">
+        <div class="benefit-number">12</div>
+        <div class="benefit-title">Improves Sexual Health</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds are rich in key nutrients like zinc (vital for
+          testosterone production), magnesium (aids blood flow and muscle relaxation, supporting erectile function), and
+          antioxidants (protecting reproductive cells from damage caused by oxidative stress).
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2023 study published in the Yale Journal of Biology and Medicine investigated the
+          protective effects of chia seeds against reproductive toxicity in male rats, suggesting they improved sperm
+          quality and reduced oxidative damage in testicular tissue.
+        </div>
+      </article>
+
+      <!-- 13 -->
+      <article class="glass-card">
+        <div class="benefit-number">13</div>
+        <div class="benefit-title">Prevents Cancer</div>
+        <div class="scientific-explanation">
+          <strong>Scientific Explanation:</strong> Chia seeds contain omega-3 fatty acids, dietary fiber, and
+          antioxidants (like quercetin and kaempferol) that work synergistically to reduce inflammation, combat
+          oxidative stress, and inhibit the proliferation of cancer cells. The antioxidants help neutralize free
+          radicals known to damage DNA.
+        </div>
+        <div class="example-box">
+          <strong>Example:</strong> A 2024 study in the Bulletin of the National Research Center found that chia seeds
+          contain compounds capable of suppressing tumor growth and inducing apoptosis in cancer cells, specifically
+          reducing the expression of oncogenes like myc and Pi3ca, which are often overactive in cancer progression.
+        </div>
+      </article>
+
+    </div>
+
+    <section class="tips glass-card" style="margin-top: 50px;">
+      <h2>Common Mistakes and Consumption Guidelines</h2>
+      <p>The sources emphasize specific ways to consume chia seeds to avoid potential side effects and maximize
+        benefits:</p>
+      <ul>
+        <li><strong>Mistake: Eating Unsoaked Seeds:</strong> Chia seeds absorb liquid and expand significantly. They
+          should always be soaked before consumption (such as mixing them with water or steeping them in tea) to make
+          them easier to digest and enhance nutrient absorption.</li>
+        <li><strong>Mistake: Consuming Too Much:</strong> The recommended intake is 1 to 2 tablespoons (10 to 30 grams)
+          per night. Consuming more than this recommended quantity may lead to digestive discomfort due to their high
+          fiber content.</li>
+        <li><strong>Mistake: Not Drinking Enough Water:</strong> When consuming chia seeds, it is essential to always
+          drink plenty of water to prevent issues like bloating or constipation.</li>
+      </ul>
+    </section>
+
+    <div
+      style="text-align: center; margin: 40px 0 20px 0; display: flex; flex-direction: column; align-items: center; gap: 15px;">
+      <a href="https://youtu.be/DmMeClLS6Cw" target="_blank" rel="noopener" class="video-link">
+        Watch related: The Overnight Superfood
+      </a>
+      <a href="https://youtu.be/uUVrsYH3xH4?list=TLGGosEl3QaStbYxMjEyMjAyNQ" target="_blank" rel="noopener"
+        class="video-link">
+        Watch related: Eat Chia Seeds At NIGHT for 1 Week & See What Will Happen to YOU
+      </a>
+    </div>
+  </main>
+
+
+  <script src="audio-controls.js"></script>
+</body>
+
+</html>
